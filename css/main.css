@@ -1,0 +1,141 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #525252;
+  background: -moz-radial-gradient(center, ellipse cover, #525252 0%, #213b55 62%, #525252 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #525252 0%,#213b55 62%,#525252 100%);
+  background: radial-gradient(ellipse at center, #525252 0%,#213b55 62%,#525252 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#525252', endColorstr='#525252',GradientType=1 );
+  color: #e8e8e8;
+}
+
+strong {
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+.modal {
+  color: #525252;
+}
+
+.container-fluid:nth-child(2) {
+  background-color: #213b55;
+}
+.container-fluid:nth-child(3) {
+  background-color: #3B4C58;
+}
+.container-fluid:nth-child(4) {
+  background-color: #63675C;
+}
+.container-fluid:nth-child(5) {
+  background-color: #63675C;
+  background: -moz-linear-gradient(top, #63675C 0%, #525252 100%);
+  background: -webkit-linear-gradient(top, #63675C 0%,#525252 100%);
+  background: linear-gradient(to bottom, #63675C 0%,#525252 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63675C', endColorstr='#525252',GradientType=0 );
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-bottom-color: #dee2e6;
+  z-index: 1001;
+  position: relative;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover,
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: #e9ecef;
+}
+
+.nav-tabs .dropdown-menu {
+  margin-top: -2px;
+}
+
+.nav-container {
+  padding: 0;
+}
+
+.navbar.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar.bg-light .nav-item .nav-link{
+  color: #e8e8e8;
+}
+
+footer {
+  line-height: 2.5rem;
+  background-color: #525252;
+}
+
+footer div:nth-child(2) {
+  text-align: right;
+}
+
+footer a { 
+  text-decoration: underline;
+}
+
+footer img {
+  height: 25px;
+}
+
+.page-divider {
+  border-top: 1px solid #525252;
+}
+
+img[data-toggle=modal] {
+  cursor: pointer;
+ }
+
+img[data-toggle=modal]:hover {
+  opacity: 0.9;
+}
+
+.resume-job-title {
+  color: #5f90be;
+  font-weight: 700;
+}
+
+.resume-when,
+.resume-where {
+  color: #e3e3e3;
+  font-size: 0.8rem;
+}
+
+.resume-where {
+  text-align: right;
+}
+
+.resume div[role=button] {
+  font-weight: 700;
+  color: #8ac3bd;
+  cursor: pointer;
+  text-align: right;
+}
+
+.img-breakup {
+  margin: 0 10px 10px 10px;
+  width: 200px;
+}
+
+.img-breakup.left {
+  float: left;
+}
+
+.img-breakup.right {
+  float: right;
+}
